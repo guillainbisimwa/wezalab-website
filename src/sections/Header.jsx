@@ -26,7 +26,7 @@ const Header = () =>{
               <a className="nav-link" data-scroll href="#about-us">About Us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" data-scroll href="#portfolio">Portfolio</a>
+              <a className="nav-link" data-scroll href="#projects">Projects</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" data-scroll href="#blog">Blog</a>
