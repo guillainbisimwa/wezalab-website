@@ -1,7 +1,8 @@
 import React from "react";
+import Header from "../sections/Header";
 
 const Landing = () => {
-  return <h1>Landing page1</h1>
+  return <Header />
 
 }
 
