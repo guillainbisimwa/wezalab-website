@@ -3,6 +3,7 @@ import Header from "../sections/Header";
 import Service from "../sections/Service";
 import About from "../sections/About";
 import Portfolio from "../sections/Portfolio";
+import Blog from "../sections/Blog";
 
 const Landing = () => {
   return <>
@@ -10,6 +11,7 @@ const Landing = () => {
       <Service />
       <About />
       <Portfolio />
+      <Blog />
     </>
  
 

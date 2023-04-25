@@ -1,7 +1,5 @@
 import React from "react";
 
-import one from '../assets/images/1.png'
-import two from '../assets/images/2.png'
 import afia from '../assets/images/afia2.png'
 
 const Portfolio = () => {
@@ -12,11 +10,31 @@ const Portfolio = () => {
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <h2>See some of our<br />projects.</h2>
-            </div>
+          <div class="col-12">
+            <h5>OUR PROJECTS</h5>
+            <h2>See some of our projects.</h2>
+          </div>
+            
           </div>
           <div class="row">
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <img src={afia} class="photobox__preview" alt="Preview" />
+                    <span class="photobox__label">Perinatal Care Revolution</span>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <img src={afia} class="photobox__preview" alt="Preview" />
+                    <span class="photobox__label">Perinatal Care Revolution</span>
+                  </div>
+                </div>
+            </div>
+
             <div class="col-12 col-lg-4 work-box">
               <div class="photobox photobox_type10">
                   <div class="photobox__previewbox">
