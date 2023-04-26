@@ -1,6 +1,8 @@
 import React from "react";
 
 import afia from '../assets/images/afia2.png'
+import tvws from '../assets/images/tvws.png'
+import climat from '../assets/images/climat.png'
 
 const Portfolio = () => {
     return <section id="projects" class="portfolio">
@@ -29,8 +31,8 @@ const Portfolio = () => {
             <div class="col-12 col-lg-4 work-box">
               <div class="photobox photobox_type10">
                   <div class="photobox__previewbox">
-                    <img src={afia} class="photobox__preview" alt="Preview" />
-                    <span class="photobox__label">Perinatal Care Revolution</span>
+                    <img src={tvws} class="photobox__preview" alt="Preview" />
+                    <span class="photobox__label">Connecting Rural Areas with TVWS Technology</span>
                   </div>
                 </div>
             </div>
@@ -38,8 +40,8 @@ const Portfolio = () => {
             <div class="col-12 col-lg-4 work-box">
               <div class="photobox photobox_type10">
                   <div class="photobox__previewbox">
-                    <img src={afia} class="photobox__preview" alt="Preview" />
-                    <span class="photobox__label">Perinatal Care Revolution</span>
+                    <img src={climat} class="photobox__preview" alt="Preview" />
+                    <span class="photobox__label">A peer-to-peer network of young climate activists </span>
                   </div>
                 </div>
             </div>
