@@ -5,6 +5,7 @@ import About from "../sections/About";
 import Portfolio from "../sections/Portfolio";
 import Blog from "../sections/Blog";
 import Contact from "../sections/Contact";
+import Footer from "../sections/Footer";
 
 const Landing = () => {
   return <>
@@ -14,6 +15,7 @@ const Landing = () => {
       <Portfolio />
       <Blog />
       <Contact />
+      <Footer />
     </>
  
 
