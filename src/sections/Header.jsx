@@ -1,5 +1,3 @@
-// eslint-disable-next-line jsx-a11y/anchor-is-valid
-
 import React from "react";
 import hero from "../assets/images/hero.svg";
 import logo from "../assets/images/logo.png";
@@ -52,8 +50,8 @@ const Header = () =>{
       <img src={hero} alt="" />
       
       <div className="container">
-        <h1>Drive innovation <br />in Africa</h1>
-        <p>Together, we can unlock the full potential of AI <br /> and drive positive change in our society.</p>
+        <h1>Innovate, Impact <br />Empower.</h1>
+        <p>Together, we can unlock the full potential of technology <br /> and drive positive change in our society.</p>
         <div className="hero-btns">
           <a data-scroll href="#about-us">More About us</a>
           <a data-scroll href="#contact-us">Get in Touch.</a>
